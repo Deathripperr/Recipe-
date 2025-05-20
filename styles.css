@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Georgia', serif;
+  background-color: #f3e4d7;
+  color: #333;
+  line-height: 1.6;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+ border-bottom: 5px;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 700px;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.prep-time {
+  background-color: #fce9f1;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.prep-time h3 {
+  margin-top: 0;
+  color: #b04e6f;
+}
+
+.ingredients, .instructions {
+  margin-bottom: 25px;
+}
+
+.ingredients li,
+.instructions li {
+  margin-bottom: 8px;
+}
+
+.instructions li strong {
+  color: #902f3c;
+}
+
+table.nutrition {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table.nutrition td {
+  padding: 8px 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+table.nutrition td:first-child {
+  font-weight: bold;
+}
